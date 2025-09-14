@@ -52,7 +52,7 @@ The repository focuses on:
   - ANN model design  
   - Training, validation, and evaluation
  
-  ---
+---
 
 ### 4. Graduate Admission Prediction Using ANN
 
