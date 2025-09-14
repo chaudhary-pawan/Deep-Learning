@@ -50,7 +50,30 @@ The repository focuses on:
 - **Concepts Covered:**  
   - Image preprocessing (using configuring pixel data for each of 60K images  
   - ANN model design  
-  - Training, validation, and evaluation  
+  - Training, validation, and evaluation
+ 
+  ---
+
+  ### 4. Graduate Admission Prediction Using ANN
+
+This project demonstrates a neural network-based approach to predict graduate admissions using an Artificial Neural Network (ANN).  
+It includes data preprocessing, model building, training, and evaluation steps.
+
+**Key Features:**
+- Input features: GRE, TOEFL, university rating, SOP, LOR, CGPA, research experience
+- Output: Probability of admission
+- Model: Multi-layer ANN using Keras/TensorFlow
+- Visualization of training and test results
+
+You can find the full implementation in the file:  
+`Graduate Admission Predction using ANN.ipynb`  
+
+**Usage:**
+1. Open the notebook and follow the instructions to preprocess data and train the model.
+2. Adjust model parameters as needed for experimentation.
+3. Evaluate predictions and visualize results.
+
+---
 
 ## 🛠️ Setup Instructions
 
