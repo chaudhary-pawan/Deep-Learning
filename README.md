@@ -54,7 +54,7 @@ The repository focuses on:
  
   ---
 
-  ### 4. Graduate Admission Prediction Using ANN
+### 4. Graduate Admission Prediction Using ANN
 
 This project demonstrates a neural network-based approach to predict graduate admissions using an Artificial Neural Network (ANN).  
 It includes data preprocessing, model building, training, and evaluation steps.
