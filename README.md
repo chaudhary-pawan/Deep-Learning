@@ -40,11 +40,23 @@ The repository focuses on:
 
 ---
 
+### 3. Handwritten Digit Classification using ANN
+- **Goal:** Classified handwritten digits using deep learning techniques.
+- **Approach:**  
+  - Implemented using TensorFlow/Keras  
+  - Utilizes the MNIST dataset for training and evaluation  
+  - Employs a Artificial neural network (ANN) architecture  
+  - Achieved high accuracy on test data  
+- **Concepts Covered:**  
+  - Image preprocessing (using configuring pixel data for each of 60K images  
+  - ANN model design  
+  - Training, validation, and evaluation  
+
 ## 🛠️ Setup Instructions
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/chaudhary-pawan/Deep-Learning.git
+   cd Deep-Learning
 
 
