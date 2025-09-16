@@ -75,6 +75,58 @@ You can find the full implementation in the file:
 
 ---
 
+
+### 5. Backpropagation for Classification
+
+**File:** [`backpropagation_classification.ipynb`](backpropagation_classification.ipynb)
+
+This notebook demonstrates how to implement backpropagation for a simple binary classification problem using a neural network. You can run this notebook interactively using [Google Colab](https://colab.research.google.com/), Jupyter Notebook, or any compatible environment.
+
+**Quick Start:**
+```python
+# Open and run all cells in backpropagation_classification.ipynb
+# It uses numpy and pandas for data handling and neural network calculations.
+```
+
+---
+
+### 6. Backpropagation for Regression
+
+**File:** [`backpropagation_regression.ipynb`](backpropagation_regression.ipynb)
+
+This notebook provides an implementation of backpropagation for a regression task. It focuses on predicting continuous values using a neural network and includes step-by-step explanations.
+
+**Quick Start:**
+```python
+# Open and run all cells in backpropagation_regression.ipynb
+# It uses numpy and pandas for data handling and neural network calculations.
+```
+
+---
+
+#### Running in Google Colab
+
+You may run either notebook in Colab by clicking the "Open in Colab" badge at the top of each notebook, or by uploading it directly to https://colab.research.google.com/.
+
+#### Requirements
+
+- Python 3.x
+- numpy
+- pandas 
+
+Install requirements (if running locally):
+```bash
+pip install numpy pandas
+```
+
+#### Tips
+
+- Read the markdown cells for explanations and theoretical background.
+- Modify the data or parameters to experiment with different scenarios.
+- Each notebook is self-contained and can be run independently.
+
+---
+
 ## 🛠️ Setup Instructions
 
 1. Clone the repository:
