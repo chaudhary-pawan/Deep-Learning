@@ -96,11 +96,6 @@ This notebook demonstrates how to implement backpropagation for a simple binary 
 
 This notebook provides an implementation of backpropagation for a regression task. It focuses on predicting continuous values using a neural network and includes step-by-step explanations.
 
-**Quick Start:**
-```python
-# Open and run all cells in backpropagation_regression.ipynb
-# It uses numpy and pandas for data handling and neural network calculations.
-```
 
 ---
 
