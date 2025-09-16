@@ -82,11 +82,6 @@ You can find the full implementation in the file:
 
 This notebook demonstrates how to implement backpropagation for a simple binary classification problem using a neural network. You can run this notebook interactively using [Google Colab](https://colab.research.google.com/), Jupyter Notebook, or any compatible environment.
 
-**Quick Start:**
-```python
-# Open and run all cells in backpropagation_classification.ipynb
-# It uses numpy and pandas for data handling and neural network calculations.
-```
 
 ---
 
@@ -97,6 +92,11 @@ This notebook demonstrates how to implement backpropagation for a simple binary 
 This notebook provides an implementation of backpropagation for a regression task. It focuses on predicting continuous values using a neural network and includes step-by-step explanations.
 
 
+**Quick Start:**
+---python
+# Open and run all cells in backpropagation_classification.ipynb
+# It uses numpy and pandas for data handling and neural network calculations.
+---
 ---
 
 #### Running in Google Colab
