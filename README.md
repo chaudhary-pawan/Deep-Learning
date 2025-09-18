@@ -79,6 +79,25 @@ You can find the full implementation in the file:
 
 ---
 
+
+### 2. Backpropagation for Classification
+
+**File:** [`backpropagation_classification.ipynb`](backpropagation_classification.ipynb)
+
+This notebook demonstrates how to implement backpropagation for a simple binary classification problem using a neural network. You can run this notebook interactively using [Google Colab](https://colab.research.google.com/), Jupyter Notebook, or any compatible environment.
+
+
+---
+
+### 3. Backpropagation for Regression
+
+**File:** [`backpropagation_regression.ipynb`](backpropagation_regression.ipynb)
+
+This notebook provides an implementation of backpropagation for a regression task. It focuses on predicting continuous values using a neural network and includes step-by-step explanations.
+
+---
+
+
 ##4 Dropout Classification Example
 
 This section demonstrates a binary classification task using a neural network in TensorFlow/Keras. The dataset consists of 2D points, each labeled as either 0 or 1. The notebook guides you through visualizing the data, building a neural network model, and training it to distinguish between the two classes.
@@ -115,22 +134,6 @@ This notebook provides a hands-on introduction to neural network classification 
 
 
 ---
-
-
-### 5. Backpropagation for Classification
-
-**File:** [`backpropagation_classification.ipynb`](backpropagation_classification.ipynb)
-
-This notebook demonstrates how to implement backpropagation for a simple binary classification problem using a neural network. You can run this notebook interactively using [Google Colab](https://colab.research.google.com/), Jupyter Notebook, or any compatible environment.
-
-
----
-
-### 6. Backpropagation for Regression
-
-**File:** [`backpropagation_regression.ipynb`](backpropagation_regression.ipynb)
-
-This notebook provides an implementation of backpropagation for a regression task. It focuses on predicting continuous values using a neural network and includes step-by-step explanations.
 
 
 **Quick Start:**
