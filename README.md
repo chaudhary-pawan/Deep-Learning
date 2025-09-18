@@ -98,7 +98,7 @@ This notebook provides an implementation of backpropagation for a regression tas
 ---
 
 
-##4 Dropout Classification Example
+### 4. Dropout Classification Example
 
 This section demonstrates a binary classification task using a neural network in TensorFlow/Keras. The dataset consists of 2D points, each labeled as either 0 or 1. The notebook guides you through visualizing the data, building a neural network model, and training it to distinguish between the two classes.
 
