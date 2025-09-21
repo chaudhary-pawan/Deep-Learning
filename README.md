@@ -154,6 +154,25 @@ Zero initialization causes all neurons in each layer to learn the same features,
 
 ---
 
+### 6. Zero Initialization with ReLU Notebook
+
+This notebook demonstrates the concept of initializing neural network weights to zero (or a constant value) and visualizes its effect on learning using a simple dataset.
+
+**File:** [`zero_initialization_relu.ipynb`](zero_initialization_relu.ipynb)
+
+### Key Highlights
+- Loads and visualizes a U-shaped dataset for binary classification.
+- Builds a simple neural network using Keras with two dense layers.
+- Manually sets the weights of the model to a constant value (e.g., 0.5) before training.
+- Trains the model for 100 epochs and observes the accuracy and loss.
+- Plots the decision boundary learned by the model.
+- Illustrates the impact of weight initialization on training dynamics.
+
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/zero_initialization_relu.ipynb)
+
+---
+
 **Usage:**  
 Open the notebook in Jupyter or Google Colab, ensuring the data file is available, and follow the steps to observe the effects of zero initialization on model training.
 **Quick Start:**
