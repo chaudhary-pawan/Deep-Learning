@@ -135,7 +135,27 @@ This notebook provides a hands-on introduction to neural network classification 
 
 ---
 
+### 5. Zero Initialization with Sigmoid Neural Network (`zero_initialization_sigmoid.ipynb`)
 
+This notebook demonstrates the impact of weight initialization in neural networks, specifically focusing on **zero initialization** with sigmoid activations. Using a simple 2D U-shape dataset, it walks through the following steps:
+
+- **Data Loading & Visualization**: Loads a sample dataset (`ushape.csv`) with two input features and a binary class, then visualizes the data distribution.
+- **Model Construction**: Builds a feedforward neural network using Keras, with one hidden layer of 10 neurons and sigmoid activation functions.
+- **Zero Initialization**: Manually sets all model weights and biases to zero before training, overriding Keras's default random initialization.
+- **Training & Evaluation**: Trains the network on the dataset using binary cross-entropy loss and Adam optimizer. Demonstrates the poor performance resulting from zero initialization (accuracy remains at 50%).
+- **Decision Boundary Plotting**: Uses `mlxtend` to visualize the decision regions learned by the network, showing lack of learning due to symmetric initialization.
+
+**Key Learning Point:**  
+Zero initialization causes all neurons in each layer to learn the same features, preventing the network from breaking symmetry and learning meaningful patterns. This notebook serves as a hands-on illustration of why proper weight initialization is crucial for neural network training.
+
+**Dependencies:**  
+- Python (with numpy, pandas, matplotlib, tensorflow, keras, mlxtend)
+- Data file: `ushape.csv` (should be present in the working directory)
+
+---
+
+**Usage:**  
+Open the notebook in Jupyter or Google Colab, ensuring the data file is available, and follow the steps to observe the effects of zero initialization on model training.
 **Quick Start:**
 ---python
 # Open and run all cells in backpropagation_classification.ipynb
