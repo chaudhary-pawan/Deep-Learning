@@ -197,6 +197,13 @@ Install requirements (if running locally):
 pip install numpy pandas
 ```
 
+### 7. Keras padding in CNN architecture demo — Short summary
+
+This notebook demonstrates how Keras Conv2D padding and stride choices affect spatial dimensions, parameter counts, and overall model size using the MNIST dataset. It loads MNIST and builds two simple Sequential CNNs to compare behaviors: Model A uses three Conv2D layers with `padding='valid'`, which reduces spatial size each layer; Model B uses `padding='same'` with `strides=(2,2)` to downsample while preserving kernel-centered outputs when stride=1. Each model ends with `Flatten` and `Dense` layers so `model.summary()` highlights differences in output shapes and total/trainable parameters. The example shows that `valid` padding shrinks feature maps by `kernel_size - 1` per layer dimension, while `same` preserves spatial dimensions (subject to strides). Using strides for controlled downsampling reduces the flattened vector size and drastically lowers Dense parameters, explaining why early downsampling, pooling, or global pooling is often preferred over huge fully connected layers. The notebook is runnable in Colab or locally with TensorFlow 2.x and Jupyter (Python 3.8+, `tensorflow>=2.6`). A Keras warning about passing `input_shape` to Conv2D in `Sequential` may appear but is informational. The notebook is concise, aimed at learners exploring CNN design choices; the principles generalize beyond MNIST.
+
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/Keras_padding_in_CNN_architecture_demo.ipynb)
+
 #### Tips
 
 - Read the markdown cells for explanations and theoretical background.
