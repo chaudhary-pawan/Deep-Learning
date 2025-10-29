@@ -24,7 +24,13 @@ The repository focuses on:
 - **Concepts Covered:**  
   - Data preprocessing  
   - Model architecture design  
-  - Training, validation, and evaluation  
+  - Training, validation, and evaluation
+
+ 
+**To run this example:**
+- Access the full notebook here: [dropout_classification_example.ipynb](https://github.com/chaudhary-pawan/Deep-Learning/blob/main/customer_churn_prediction.ipynb)
+- Try it interactively in Google Colab:  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/customer_churn_prediction.ipynb)
 
 ---
 
@@ -42,6 +48,12 @@ The repository focuses on:
   - ANN model design  
   - Training, validation, and evaluation
  
+  
+**To run this example:**
+- Access the full notebook here: [dropout_classification_example.ipynb](https://github.com/chaudhary-pawan/Deep-Learning/blob/main/Handwritten_Digit_Classification_using_ANN.ipynb)
+- Try it interactively in Google Colab:  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/Handwritten_Digit_Classification_using_ANN.ipynb)
+
 ---
 
 ### 3. Graduate Admission Prediction Using ANN
@@ -63,6 +75,12 @@ You can find the full implementation in the file:
 2. Adjust model parameters as needed for experimentation.
 3. Evaluate predictions and visualize results.
 
+
+**To run this example:**
+- Access the full notebook here: [dropout_classification_example.ipynb](https://github.com/chaudhary-pawan/Deep-Learning/blob/main/Graduate_admission_prediction_using_ANN.ipynb)
+- Try it interactively in Google Colab:  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/Graduate_admission_prediction_using_ANN.ipynb)
+  
 ---
 
 ## Course Practicals📑
