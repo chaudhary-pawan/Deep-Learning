@@ -28,7 +28,7 @@ The repository focuses on:
 
  
 **To run this example:**
-- Access the full notebook here: [dropout_classification_example.ipynb](https://github.com/chaudhary-pawan/Deep-Learning/blob/main/customer_churn_prediction.ipynb)
+- Access the full notebook here: [customer_churn_prediction.ipynb](https://github.com/chaudhary-pawan/Deep-Learning/blob/main/customer_churn_prediction.ipynb)
 - Try it interactively in Google Colab:  
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/customer_churn_prediction.ipynb)
 
@@ -50,7 +50,7 @@ The repository focuses on:
  
   
 **To run this example:**
-- Access the full notebook here: [dropout_classification_example.ipynb](https://github.com/chaudhary-pawan/Deep-Learning/blob/main/Handwritten_Digit_Classification_using_ANN.ipynb)
+- Access the full notebook here: [Handwritten_Digit_Classification_using_ANN.ipynb](https://github.com/chaudhary-pawan/Deep-Learning/blob/main/Handwritten_Digit_Classification_using_ANN.ipynb)
 - Try it interactively in Google Colab:  
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/Handwritten_Digit_Classification_using_ANN.ipynb)
 
@@ -77,7 +77,7 @@ You can find the full implementation in the file:
 
 
 **To run this example:**
-- Access the full notebook here: [dropout_classification_example.ipynb](https://github.com/chaudhary-pawan/Deep-Learning/blob/main/Graduate_admission_prediction_using_ANN.ipynb)
+- Access the full notebook here: [Graduate_admission_prediction_using_ANN.ipynb](https://github.com/chaudhary-pawan/Deep-Learning/blob/main/Graduate_admission_prediction_using_ANN.ipynb)
 - Try it interactively in Google Colab:  
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/Graduate_admission_prediction_using_ANN.ipynb)
   
