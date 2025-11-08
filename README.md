@@ -222,6 +222,34 @@ This notebook demonstrates how Keras Conv2D padding and stride choices affect sp
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/Keras_padding_in_CNN_architecture_demo.ipynb)
 
+### 8. Using ResNet50 pretrained model to classify an image
+
+This notebook demonstrates using a pretrained ResNet50 model (trained on ImageNet) to classify a single image. It shows how to load the model, prepare an input image, run inference, and decode the top predictions.
+
+## What this notebook contains
+- Loads Keras' ResNet50 model with ImageNet weights.
+- Demonstrates image preprocessing (resizing to 224×224, converting to array, applying `preprocess_input`).
+- Runs model inference and decodes the top-3 predictions with `decode_predictions`.
+- Example included: classifying an image saved as `/content/chair.jpg` which yields chair-related classes.
+
+## Key files / cells
+- Cell: import required modules (tensorflow.keras.applications.resnet50, image preprocessing, numpy).
+- Cell: `model = ResNet50(weights='imagenet')` — downloads and loads pretrained weights.
+- Cell: load & preprocess an image (`image.load_img`, `image.img_to_array`, `np.expand_dims`, `preprocess_input`).
+- Cell: `model.predict(x)` and `decode_predictions(preds, top=3)` to print results.
+
+## Example output
+Predicted: [
+  ('n02791124', 'barber_chair', 0.9978),
+  ('n04099969', 'rocking_chair', 0.0006),
+  ('n03376595', 'folding_chair', 0.0005)
+]
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/ResNet50(pretrained_model).ipynb)
+
+## Credits
+- Uses Keras Applications ResNet50 and ImageNet pretrained weights provided by TensorFlow / Keras.
+
 #### Tips
 
 - Read the markdown cells for explanations and theoretical background.
