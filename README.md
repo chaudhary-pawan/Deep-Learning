@@ -195,8 +195,8 @@ This notebook demonstrates the concept of initializing neural network weights to
 Open the notebook in Jupyter or Google Colab, ensuring the data file is available, and follow the steps to observe the effects of zero initialization on model training.
 **Quick Start:**
 ---python
-# Open and run all cells in backpropagation_classification.ipynb
-# It uses numpy and pandas for data handling and neural network calculations.
+#### Open and run all cells in backpropagation_classification.ipynb
+#### It uses numpy and pandas for data handling and neural network calculations.
 ---
 ---
 
@@ -226,19 +226,19 @@ This notebook demonstrates how Keras Conv2D padding and stride choices affect sp
 
 This notebook demonstrates using a pretrained ResNet50 model (trained on ImageNet) to classify a single image. It shows how to load the model, prepare an input image, run inference, and decode the top predictions.
 
-## What this notebook contains
+#### What this notebook contains
 - Loads Keras' ResNet50 model with ImageNet weights.
 - Demonstrates image preprocessing (resizing to 224×224, converting to array, applying `preprocess_input`).
 - Runs model inference and decodes the top-3 predictions with `decode_predictions`.
 - Example included: classifying an image saved as `/content/chair.jpg` which yields chair-related classes.
 
-## Key files / cells
+#### Key files / cells
 - Cell: import required modules (tensorflow.keras.applications.resnet50, image preprocessing, numpy).
 - Cell: `model = ResNet50(weights='imagenet')` — downloads and loads pretrained weights.
 - Cell: load & preprocess an image (`image.load_img`, `image.img_to_array`, `np.expand_dims`, `preprocess_input`).
 - Cell: `model.predict(x)` and `decode_predictions(preds, top=3)` to print results.
 
-## Example output
+#### Example output
 Predicted: [
   ('n02791124', 'barber_chair', 0.9978),
   ('n04099969', 'rocking_chair', 0.0006),
@@ -247,7 +247,7 @@ Predicted: [
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/ResNet50(pretrained_model).ipynb)
 
-## Credits
+#### Credits
 - Uses Keras Applications ResNet50 and ImageNet pretrained weights provided by TensorFlow / Keras.
 
 #### Tips
