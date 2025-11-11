@@ -83,6 +83,30 @@ You can find the full implementation in the file:
   
 ---
 
+### 4. Next word predictor using LSTM
+
+Next Word Predictor using LSTM is a small, educational project that demonstrates how to build a simple next-word prediction model with TensorFlow / Keras. The project walks through preprocessing text, creating training sequences, building an LSTM-based neural network, training the model, and using it to predict the next word(s) given a short seed phrase.
+
+This repository contains a Jupyter Notebook (Next_word_predictor_using_LSTM.ipynb) that implements a minimal but complete pipeline intended for learning and experimentation — not production use.
+
+** Key ideas and components **
+- Data: A plain-text FAQ excerpt is used as the training corpus inside the notebook (tokenized via Keras Tokenizer).
+- Preprocessing: Text is lowercased and tokenized; training examples are created by sliding-window sequence generation (prefixes mapped to a following word).
+- Model architecture: Embedding layer → LSTM layer(s) → Dense output with softmax over the vocabulary.
+- Training: Categorical cross-entropy loss and an optimizer (e.g., Adam) train the model to predict the next token in the sequence.
+- Inference: A seed text is tokenized and passed to the model to predict the next token; repeated prediction can generate multiple words.
+
+** Who is this for **
+- Beginners learning practical NLP preprocessing and sequence modeling.
+- Students exploring how recurrent models (LSTM) learn local language patterns.
+- Anyone wanting a small, runnable example to extend for language modeling, text generation, or autocomplete prototypes.
+
+**To run this example:**
+- Access the full notebook here: [Next_word_predictor_using_LSTM.ipynb](https://github.com/chaudhary-pawan/Deep-Learning/blob/main/Next_word_predictor_using_LSTM.ipynb)
+- Try it interactively in Google Colab:  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/Next_word_predictor_using_LSTM.ipynb)
+
+
 ## Course Practicals📑
 
 ### 1. Perceptron Algorithm (From Scratch)
