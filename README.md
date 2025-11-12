@@ -234,9 +234,7 @@ You may run either notebook in Colab by clicking the "Open in Colab" badge at th
 - numpy
 - pandas 
 
-Install requirements (if running locally):
-```bash
-pip install numpy pandas
+
 ```
 
 ### 7. Keras padding in CNN architecture demo — Short summary
