@@ -280,6 +280,36 @@ Predicted: [
 
 ---
 
+### 9. Deep RNNs
+
+This notebook demonstrates building, comparing, and training simple recurrent neural networks on the IMDb movie-review sentiment dataset. It is intended as an educational example to show how SimpleRNN, LSTM and GRU layers behave on a short text classification task.
+
+## Highlights
+- Dataset: IMDb (binary sentiment classification), using the top 10,000 words.
+- Preprocessing: sequences are padded to fixed length (maxlen = 100).
+- Embedding: a Keras Embedding layer (vocab_size=10000, embed_dim=32) converts token ids to vectors.
+- Models shown:
+  - Stacked SimpleRNN (two SimpleRNN layers)
+  - Stacked LSTM (two LSTM layers)
+  - Stacked GRU (two GRU layers)
+- Training setup:
+  - Optimizer: Adam
+  - Loss: binary_crossentropy
+  - Metric: accuracy
+  - Example training in the notebook: epochs=5, batch_size=32, validation_split=0.2
+- Example results (from a sample run): training accuracy reached >95% while validation accuracy was around ~80% — results will vary depending on environment and random seed.
+
+
+## Notes & tips
+- SimpleRNN is useful for demonstrations, but LSTM/GRU typically handle long-range dependencies better (less vanishing gradient).
+- The notebook uses very small recurrent unit sizes for clarity. For production or serious experiments, increase units, add dropout, and consider pretrained embeddings (GloVe, FastText) or transformer-based models for improved accuracy.
+- To prevent overfitting: use dropout/recurrent_dropout, early stopping with validation loss, or reduce network capacity.
+- Results are nondeterministic across runs; set random seeds if reproducibility is required.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudhary-pawan/Deep-Learning/blob/main/Deep_RNNs.ipynb)
+
+---
+
 ## 🛠️ Setup Instructions
 
 1. Clone the repository:
